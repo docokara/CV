@@ -1,0 +1,39 @@
+.boardContainer{    
+    background: grey;
+    margin: 3%;
+    display: flex;
+}
+.board0,
+.board1,
+.selectiveBoard{
+    width: 33%;
+    min-height: 30vh;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.board0,
+.selectiveBoard{
+    align-items: flex-end;
+    color: white;
+    background: grey;
+}
+.board0{
+    border-right: 1px black solid;
+    font-size: 1em;
+}
+.selectiveBoard{ 
+    justify-self: flex-start;
+}
+
+
+.boardContainer {
+    opacity: 0;
+    transform: translate(0, 10vh);
+    transition: all 1s;
+  }
+  
+  .boardContainer.visible {
+    opacity: 1;
+    transform: translate(0, 0);
+  }

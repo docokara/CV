@@ -1,0 +1,25 @@
+{
+  "board": {
+    "schoolPath": [
+      ["2022", "2018"],
+      [
+        "L3 informatiques Faculté Sciences et Techniques GrandMont",
+        "Baccalauréat STI2D mention Assez Bien"
+      ]
+    ],
+    "proffesionnalExperience": [
+      [
+        "Juin 2022 - juillet 2022",
+        "Juillet 2021 - Août 2021",
+        "Juin 2020 - Juillet 2020",
+        "Juillet 2019 - août 2019"
+      ],
+      [
+        "Saisonnier CAPROGA",
+        "Equipier BurgerKing",
+        "Préparateur de commande à DARTY",
+        "Techniciens informatiques ECONOCOM"
+      ]
+    ]
+  }
+}
