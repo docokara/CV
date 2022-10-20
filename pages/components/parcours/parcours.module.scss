@@ -1,12 +1,16 @@
+$glass: rgba(255, 255, 255, 0.2);
+$glass-icon: rgba(255, 255, 255, 0.3);
+$gradient: linear-gradient(35deg, red, purple);
+$option: #320a28;
+
 .boardContainer{    
     background: grey;
-    margin: 3%;
+    margin: 15% 2% 15% 2%;
     display: flex;
+    border-radius: 20px;
 }
 .board0,
-.board1,
-.selectiveBoard{
-    width: 33%;
+.board1{
     min-height: 30vh;
     display: flex;
     justify-content: flex-start;
@@ -16,16 +20,53 @@
 .selectiveBoard{
     align-items: flex-end;
     color: white;
-    background: grey;
+}
+.informations{
+    margin : 2vh;
 }
 .board0{
     border-right: 1px black solid;
-    font-size: 1em;
+    font-size: 1.5em;
 }
-.selectiveBoard{ 
-    justify-self: flex-start;
-}
+.board1{
 
+    width: 100%;
+    font-size: 1.5em;
+    text-align: justify;
+}
+.selectiveBoard {
+    align-items: center;
+    border-radius: 0 20px 0 20px;
+    height: 20%;
+    position: absolute;
+    right: 0;
+    /* Reset */
+    appearance: none;
+    border: 0;
+    outline: 0;
+    font: inherit;
+    /* Personalize */
+    padding: 0 4em 0 1em;
+    background: url(https://upload.wikimedia.org/wikipedia/commons/9/9d/Caret_down_font_awesome_whitevariation.svg)
+        no-repeat right 0.8em center / 1.4em,
+      linear-gradient(to left, $glass-icon 3em, $glass 3em);
+    color: white;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    /* <option> colors */
+    option {
+      color: inherit;
+      background-color: $option;
+    }
+    /* Remove focus outline */
+    &:focus {
+      outline: none;
+    }
+    /* Remove IE arrow */
+    &::-ms-expand {
+      display: none;
+    }
+  }
 
 .boardContainer {
     opacity: 0;

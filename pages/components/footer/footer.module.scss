@@ -1,0 +1,13 @@
+.container{
+  padding: 2%;
+  border-top: 1px black solid;
+    bottom : 0;
+    right : 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px black solid;
+  }
+  .githubLogo{
+    z-index: 2;
+  }

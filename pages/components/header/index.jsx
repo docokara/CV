@@ -16,7 +16,7 @@ function NavElement({ href, name }) {
     return (
         <header className={styles.container}>
             <NavElement href="/" name="Acceuil" />
-            <NavElement href="/projet" name="Projet" />
+            <NavElement href="#projet-section" name="Projet" />
         </header>
     )
   }
