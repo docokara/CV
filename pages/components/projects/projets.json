@@ -3,7 +3,7 @@
     "image": "/images/CV.png",
     "name": "Curriculum Vitae",
     "repo": "https://github.com/docokara/CV",
-    "description": "Un CV sombre pour montrer que je suis en mesure d'utiliser le FrameWork next (pour une utilisations trés simple certes !)"
+    "description": "Un CV sobre pour montrer que je suis en mesure d'utiliser le FrameWork next (pour une utilisations trés simple certes !)"
   },
   "granulometrie": {
     "image": "/images/granulometrie.png",
@@ -22,12 +22,6 @@
     "name": "Twitch Library",
     "repo": "https://github.com/docokara/twitch-manager",
     "description": "Ceci est une library que je suis en train de concevoir afin de mettre en place simplement un manager d'évenement sur twitch "
-  },
-  "avocat": {
-    "image": "/images/avocat.jpg",
-    "name": "Avocat",
-    "repo": "https://github.com/docokara/avocat",
-    "description": "Ceci était un jeu au quelle je jouer en soirée avec mes ami que j'ai voulu essayer de refaire en utilisant socket.io pour faire un jeu en temps réelle"
   },
   "foodsens": {
     "image": "/images/foodsens.jpg",

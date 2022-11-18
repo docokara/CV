@@ -10,22 +10,11 @@ export default function AboutMe({ children, title }) {
         className={styles.photo}
       />
       <p className={styles.fp}>
-        {" "}
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
-        corporis, at consequuntur obcaecati eaque reprehenderit sed quod
-        inventore dignissimos animi laborum exercitationem culpa. Tempore maxime
-        numquam harum, inventore quae vitae. Lorem ipsum dolor sit amet
-        consectetur adipisicing elit. Quaerat corporis, at consequuntur
-        obcaecati eaque reprehenderit sed quod inventore dignissimos animi
-        laborum exercitationem culpa. Tempore maxime numquam harum, inventore
-        quae vitae. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Quaerat corporis, at consequuntur obcaecati eaque reprehenderit sed quod
-        inventore dignissimos animi laborum exercitationem culpa. Tempore maxime
-        numquam harum, inventore quae vitae. Lorem ipsum dolor sit amet
-        consectetur adipisicing elit. Quaerat corporis, at consequuntur
-        obcaecati eaque reprehenderit sed quod inventore dignissimos animi
-        laborum exercitationem culpa. Tempore maxime numquam harum, inventore
-        quae vitae.
+        Passionnée d'informatique depuis toujours j'ai entreprit beaucoup de
+        projet personnel pour me former. Mais depuis un an je me suis plus
+        particulièrement intérréssé au côté web qui m'a énormément plus. Si je
+        devais me décrire je dirais que je suis un acharné de travail et un
+        éternel insatisfait.
       </p>
     </section>
   );

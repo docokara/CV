@@ -1,18 +1,19 @@
-.aboutme{
-    display: flex;
-    align-items: center;
-    text-align: center;
-    margin: 5%;
-    height: 70vh;
+.aboutme {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 5%;
+  height: 70vh;
 }
 .photo,
-.fp{
-    margin : 3.5%
+.fp {
+  margin: 3.5%;
 }
-.photo{
-    position: relative;
-    width: 20%;
+.photo {
+  position: relative;
+  width: 20%;
 }
-.fp{
-    width: 60%;
+.fp {
+  font-size: 1.6em;
+  width: 60%;
 }

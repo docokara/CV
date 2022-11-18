@@ -1,6 +1,16 @@
 {
   "/_app": "pages/_app.js",
+  "/api/hello": "pages/api/hello.js",
+  "/components/aboutme": "pages/components/aboutme.html",
+  "/components/header": "pages/components/header.html",
+  "/components/footer": "pages/components/footer.html",
+  "/components/entry": "pages/components/entry.html",
+  "/components/layout": "pages/components/layout.html",
+  "/components/projects": "pages/components/projects.html",
+  "/": "pages/index.html",
+  "/components/parcours": "pages/components/parcours.html",
+  "/utils/BoardCreator": "pages/utils/BoardCreator.html",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js"
+  "/404": "pages/404.html"
 }

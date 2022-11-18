@@ -38,7 +38,7 @@ var external_react_ = __webpack_require__(6689);
 var parcours_module = __webpack_require__(3851);
 var parcours_module_default = /*#__PURE__*/__webpack_require__.n(parcours_module);
 ;// CONCATENATED MODULE: ./pages/components/parcours/boardInfo.json
-const boardInfo_namespaceObject = JSON.parse('{"I":{"schoolPath":[["2022","2018"],["L3 informatiques Faculté Sciences et Techniques GrandMont","Baccalauréat STI2D mention Assez Bien"]],"proffesionnalExperience":[["Juin 2022 - juillet 2022","Juillet 2021 - Août 2021","Juin 2020 - Juillet 2020","Juillet 2019 - août 2019"],["Saisonnier CAPROGA","Equipier BurgerKing","Préparateur de commande à DARTY","Techniciens informatiques ECONOCOM"]]}}');
+const boardInfo_namespaceObject = JSON.parse('{"I":{"Parcours scolaire":[["2022","2018"],["L3 informatiques Faculté Sciences et Techniques GrandMont","Baccalauréat STI2D mention Assez Bien"]],"Experience professionel":[["Juin 2022 - juillet 2022","Juillet 2021 - Août 2021","Juin 2020 - Juillet 2020","Juillet 2019 - août 2019"],["Saisonnier CAPROGA","Equipier BurgerKing","Préparateur de commande à DARTY","Techniciens informatiques ECONOCOM"]]}}');
 // EXTERNAL MODULE: ./pages/utils/BoardCreator.jsx
 var BoardCreator = __webpack_require__(3320);
 ;// CONCATENATED MODULE: ./pages/components/parcours/index.jsx
@@ -50,7 +50,7 @@ var BoardCreator = __webpack_require__(3320);
 const BoardNames = Object.keys(boardInfo_namespaceObject.I);
 function Parcours({}) {
     const { 0: board , 1: setBoard  } = (0,external_react_.useState)([]);
-    const { 0: currentBoard , 1: setCurrentBoard  } = (0,external_react_.useState)("schoolPath");
+    const { 0: currentBoard , 1: setCurrentBoard  } = (0,external_react_.useState)("Parcours scolaire");
     const { 0: fade , 1: setFade  } = (0,external_react_.useState)("");
     (0,external_react_.useEffect)(function() {
         console.log("current board : ", currentBoard);

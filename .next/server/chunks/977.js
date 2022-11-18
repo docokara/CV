@@ -42,12 +42,9 @@ function AboutMe({ children , title  }) {
                 alt: "identity-photo",
                 className: (_aboutme_module_scss__WEBPACK_IMPORTED_MODULE_2___default().photo)
             }),
-            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                 className: (_aboutme_module_scss__WEBPACK_IMPORTED_MODULE_2___default().fp),
-                children: [
-                    " ",
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat corporis, at consequuntur obcaecati eaque reprehenderit sed quod inventore dignissimos animi laborum exercitationem culpa. Tempore maxime numquam harum, inventore quae vitae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat corporis, at consequuntur obcaecati eaque reprehenderit sed quod inventore dignissimos animi laborum exercitationem culpa. Tempore maxime numquam harum, inventore quae vitae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat corporis, at consequuntur obcaecati eaque reprehenderit sed quod inventore dignissimos animi laborum exercitationem culpa. Tempore maxime numquam harum, inventore quae vitae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat corporis, at consequuntur obcaecati eaque reprehenderit sed quod inventore dignissimos animi laborum exercitationem culpa. Tempore maxime numquam harum, inventore quae vitae."
-                ]
+                children: "Passionn\xe9e d'informatique depuis toujours j'ai entreprit beaucoup de projet personnel pour me former. Mais depuis un an je me suis plus particuli\xe8rement int\xe9rr\xe9ss\xe9 au c\xf4t\xe9 web qui m'a \xe9norm\xe9ment plus. Si je devais me d\xe9crire je dirais que je suis un acharn\xe9 de travail et un \xe9ternel insatisfait."
             })
         ]
     });

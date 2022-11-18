@@ -6,8 +6,8 @@ import BoardCreator from "../../utils/BoardCreator.jsx";
 const BoardNames = Object.keys(boardInfo.board);
 export default function Parcours({}) {
   const [board, setBoard] = useState([]);
-  const [currentBoard, setCurrentBoard] = useState("schoolPath");
-  const [fade,setFade] = useState("")
+  const [currentBoard, setCurrentBoard] = useState("Parcours scolaire");
+  const [fade, setFade] = useState("");
   useEffect(
     function () {
       console.log("current board : ", currentBoard);
@@ -39,32 +39,36 @@ export default function Parcours({}) {
     },
     [currentBoard]
   );
-  useEffect(function(){
-    window.addEventListener("scroll",fadeInCss)
-    return () =>{window.removeEventListener("scoll",fadeInCss
-    )}
-  },[])
+  useEffect(function () {
+    window.addEventListener("scroll", fadeInCss);
+    return () => {
+      window.removeEventListener("scoll", fadeInCss);
+    };
+  }, []);
 
-  const fadeInCss = (e) =>{
-    var element = document.getElementById("boardToFade")
-    var pageTop = window.pageYOffset
+  const fadeInCss = (e) => {
+    var element = document.getElementById("boardToFade");
+    var pageTop = window.pageYOffset;
     var pageBottom = pageTop + window.outerHeight;
-    var elementTop = element.offsetTop
+    var elementTop = element.offsetTop;
     if (elementTop < pageBottom) {
-      setFade("visible")
+      setFade("visible");
     } else {
       console.log("no");
-      setFade("")
+      setFade("");
     }
   };
-  
+
   function selectiveHandle(name) {
     setCurrentBoard(name);
   }
   return (
-    <div id={`boardToFade`} className={[styles.boardContainer, styles[fade] ].join(" ")} key={currentBoard}>
+    <div
+      id={`boardToFade`}
+      className={[styles.boardContainer, styles[fade]].join(" ")}
+      key={currentBoard}
+    >
       {board}
     </div>
   );
 }
-
