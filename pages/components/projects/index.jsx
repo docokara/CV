@@ -2,6 +2,7 @@
 import styles from "./projects.module.scss";
 import Image from "next/image";
 import projets from "./projets.json";
+import Link from "next/link";
 export default function projects({}) {
   return (
     <div className={styles.container} id="projet-section">
@@ -13,18 +14,18 @@ export default function projects({}) {
               <div>{element.name}</div>
             </header>
             <section className={styles.infos} key={i}>
-              <a href={element.repo}>
+              <Link href={element.repo} className={styles.link}>
                 {" "}
                 <Image
-                className={styles.img}
+                  className={styles.img}
                   loader={() => element.image}
                   src={element.image}
                   alt="Picture of the author"
-                  width="450px"
-                  height="300px"
+                  width="450"
+                  height="300"
                   href={element.repo}
                 />
-              </a>
+              </Link>
               <div className={styles.description}>{element.description}</div>
             </section>
           </div>
