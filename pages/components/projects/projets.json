@@ -8,7 +8,7 @@
   "granulometrie": {
     "image": "/images/granulometrie.png",
     "name": "Granulometrie",
-    "repo": "https://github.com/docokara/granulometrie.png",
+    "repo": "https://github.com/docokara/granulometrie",
     "description": "Ceci est le projet que nous avons dû faire en L2, il consiste à faire un test sur une image sur les grains de l'image afin d'en sortir des stats"
   },
   "adminPage": {
